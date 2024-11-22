@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PlaylistsUser</string>
+    <string name="hello_message">Hello, Android!</string>
+    <string name="updated_message">Hello, %1$s!</string>
+    <string name="user">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="enter">Entrar</string>
+    <string name="forget_password">Esqueci minha senha</string>
+    <string name="playlist_title">Playlist Title</string>
+    <string name="playlist_description">Descrição da Playlist</string>
+    <string name="add_playlist">Adiciona uma Playlist</string>
+    <string name="select_content">Selecione um Conteúdo</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="imagem_de_adicionar">Imagem de adicionar</string>
+    <string name="adicionar_conte_do">Adicionar conteúdo</string>
+    <string name="excluir_conte_do">Excluir conteúdo</string>
+    <string name="add_content">Adicionar conteúdo</string>
+    <string name="content_title">Título do Conteúdo</string>
+</resources>

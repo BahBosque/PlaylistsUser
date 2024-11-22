@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#111"
+    android:padding="24dp">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_logo"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Campo de E-mail -->
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/user"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/hint_color"
+        android:background="@drawable/rounded_input_background"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="username" />
+
+    <!-- Campo de Senha -->
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/hint_color"
+        android:background="@drawable/rounded_input_background"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="password" />
+
+    <!-- Botão de Login -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/enter"
+        android:textColor="@color/text_color"
+        android:backgroundTint="@color/primary_color"
+        android:background="@drawable/rounded_button_background"
+        android:textStyle="bold"
+        android:stateListAnimator="@null"
+        android:enabled="false"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.2" />
+
+    <!-- Botão Esqueci Minha Senha -->
+    <TextView
+        android:id="@+id/forgot_password_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forget_password"
+        android:textColor="@color/hint_color"
+        android:enabled="false"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:alpha="0.5"/>
+</LinearLayout>
